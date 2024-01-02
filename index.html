@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casino Insight Pulse</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Casino Insight Pulse Dashboard</h1>
+    </header>
+    <main>
+        <section id="analytics-overview">
+            <h2>Analytics Overview</h2>
+            <div id="overview-content">
+                <div class="overview-item">
+                    <h3>Total Bets</h3>
+                    <p id="total-bets">Loading...</p>
+                </div>
+                <div class="overview-item">
+                    <h3>Most Popular Game</h3>
+                    <p id="popular-game">Loading...</p>
+                </div>
+                <div class="overview-item">
+                    <h3>Highest Win</h3>
+                    <p id="highest-win">Loading...</p>
+                    <p id="highest-win-player-id">Loading...</p>
+
+                </div>
+            </div>
+        </section>
+        <section id="detailed-stats">
+            <h2>Detailed Statistics</h2>
+            <div id="stats-content">
+                <table id="stats-table">
+                    <thead>
+                        <tr>
+                            <th>Player ID</th>
+                            <th>Date/Time</th>
+                            <th>Game Type</th>
+                            <th>Bet Amount</th>
+                            <th>Win/Loss Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Data rows will be loaded here -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
